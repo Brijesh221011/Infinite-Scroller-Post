@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinite Scroller Post</title>
+    
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Infinite Scroller Post</h1>
+
+        <div id="cont" class="row infinite-scroll-container">
+            <div class="col-md-4 box">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="title">Sample Post Title 1</h5>
+                        <p class="main">This is a sample post content that will appear in each card as you scroll down. Each card can contain different information dynamically loaded through JavaScript.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 box">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="title">Sample Post Title 2</h5>
+                        <p class="main">This is a sample post content that will appear in each card as you scroll down. Each card can contain different information dynamically loaded through JavaScript.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 box">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="title">Sample Post Title 3</h5>
+                        <p class="main">This is a sample post content that will appear in each card as you scroll down. Each card can contain different information dynamically loaded through JavaScript.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center my-4">
+            <span class="loader"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
